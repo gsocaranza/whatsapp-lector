@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-lector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Lector local y de solo lectura de WhatsApp, con un MCP para Claude Code.",
+  "scripts": {
+    "vincular": "node src/vincular.js",
+    "mcp": "node src/mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4",
+    "zod": "^4.6.7"
+  }
+}
